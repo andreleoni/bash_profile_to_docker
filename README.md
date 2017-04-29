@@ -1,1 +1,1 @@
-To add on .zsh source ~/.bash_profile
+To add on .zsh 'source ~/.bash_profile'
