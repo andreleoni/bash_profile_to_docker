@@ -1,5 +1,5 @@
-alias dc-web='docker-compose run app'
+alias dc-web='docker-compose run website'
 
-alias dc-migrate='docker-compose run app rails db:migrate'
-alias dc-migrate='alias dc-rspec=docker-compose run app spec'
+alias dc-migrate='docker-compose run website rails db:migrate'
+alias dc-spec='alias dc-rspec=docker-compose run website spec'
 alias dc=docker-compose
